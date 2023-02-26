@@ -3,11 +3,6 @@
 This project is a talking assistant that uses OpenAI's GPT-3 API to provide natural language processing capabilities. The assistant can understand and respond to text-based queries, making it a powerful tool for a variety of applications.
 
 
-## Install requirements
-
-```bash
-pip install -r requirements.txt
-```
 
 Go to the `openai` website to get your personal API token and paste it in the code.
 ```bash
@@ -20,7 +15,13 @@ openai.api_key=<your_api_key>
 git clone https://github.com/divyansh10100/talking-assistant-with-openai-api.git
 cd talking-assistant-with-openai-api
 ```
+After cloning the repo, install the requirements.
+## Install requirements
 
+```bash
+pip install -r requirements.txt
+```
+After the requirements are successfully installed run the code.
 ```bash
 $ python -m assistant.py
 #or
