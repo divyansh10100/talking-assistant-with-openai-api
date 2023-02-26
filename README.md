@@ -1,7 +1,5 @@
 # talking-assistant-with-openai-api
 
-[![MIT](https://opensource.org/license/mit/)]
-
 This project is a talking assistant that uses OpenAI's GPT-3 API to provide natural language processing capabilities. The assistant can understand and respond to text-based queries, making it a powerful tool for a variety of applications.
 
 
