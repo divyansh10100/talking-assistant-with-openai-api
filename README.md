@@ -8,7 +8,7 @@ This project is a talking assistant that uses OpenAI's GPT-3 API to provide natu
 ```bash
 pip install -r requirements.txt
 ```
-```
+
 Go to the `openai` website to get your personal API
 ```bash
 OPENAI_API_KEY=<your_api_key>
@@ -25,6 +25,7 @@ cd talking-assistant-with-openai-api
 $ python -m assistant.py
 #or
 $ assistant.py
+```
 The assistant should now be available to talk to.
 
 To use the assistant, simply speak to the bot, and the assistant will use OpenAI's API to generate a response. The response is then spoken using `playsound` library, allowing for easy interaction and communication. Additionally the text input and output is also visible in the CLI for reference.
