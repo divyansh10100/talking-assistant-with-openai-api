@@ -9,9 +9,9 @@ This project is a talking assistant that uses OpenAI's GPT-3 API to provide natu
 pip install -r requirements.txt
 ```
 
-Go to the `openai` website to get your personal API
+Go to the `openai` website to get your personal API token and paste it in the code.
 ```bash
-OPENAI_API_KEY=<your_api_key>
+openai.api_key=<your_api_key>
 ```
 
 ## Usage
