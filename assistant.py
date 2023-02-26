@@ -2,7 +2,7 @@ import speech_recognition as sr
 from gtts import gTTS
 from playsound import playsound
 import openai
-openai.api_key = "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"
+openai.api_key = "your-api-code"
 
 
 def send_message(message):
